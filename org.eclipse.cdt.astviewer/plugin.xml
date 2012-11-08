@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+   
+      <extension
+         point="org.eclipse.ui.views">
+      <view
+            allowMultiple="false"
+            class="org.eclipse.cdt.ui.astviewer.DOMAST.DOMAST"
+            icon="icons/sample.gif"
+            category="org.eclipse.cdt.ui.views"
+            name="ASTViewer"
+            id="org.eclipse.cdt.ui.astviewer.DOMAST.DOMAST">
+      </view>
+   </extension>
+   
+   
+   <!-- documentation tool comment test owners -->
+    
+
+
+</plugin>
