@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.eclipse.cdt.ui.astviewer.feature"
-      label="astviewer feature"
-      version="1.0.0.qualifier">
+      label="CDT AST Viewer feature"
+      version="1.0.1">
 
    <description url="http://eclipse.com/cdt">
       [Enter Feature Description here.]
@@ -17,7 +17,7 @@
    </license>
 
    <url>
-      <update label="ASTViewer Update Siate" url="https://raw.github.com/nberserk/ASTViewer/master/org.eclipse.cdt.ui.astviewer.update"/>
+      <update label="CDT AST Viewer Update Site" url="https://raw.github.com/nberserk/ASTViewer/master/org.eclipse.cdt.ui.astviewer.update"/>
    </url>
 
    <plugin

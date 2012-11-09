@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description name="astviewer update site" url="file:/D:/WSs/eclipse/_wsWizard/org.eclipse.cdt.ui.astviewer.update/">
+   <description name="CDT AST Viewer Update Site" url="https://raw.github.com/nberserk/ASTViewer/master/org.eclipse.cdt.ui.astviewer.update">
       astviewer update site
    </description>
-   <feature url="features/org.eclipse.cdt.ui.astviewer.feature_1.0.0.201211081540.jar" id="org.eclipse.cdt.ui.astviewer.feature" version="1.0.0.201211081540" patch="true">
+   <feature url="features/org.eclipse.cdt.ui.astviewer.feature_1.0.1.jar" id="org.eclipse.cdt.ui.astviewer.feature" version="1.0.1">
       <category name="CDT AST Viewer"/>
    </feature>
-   <category-def name="CDT AST Viewer" label="CDT AST Viewer"/>
+   <category-def name="CDT AST Viewer" label="CDT AST Viewer">
+      <description>
+         contains CDT AST Viewer
+      </description>
+   </category-def>
 </site>
