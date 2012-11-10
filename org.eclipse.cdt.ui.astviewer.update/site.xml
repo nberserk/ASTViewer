@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
    <description name="CDT AST Viewer Update Site" url="https://raw.github.com/nberserk/ASTViewer/master/org.eclipse.cdt.ui.astviewer.update">
-      astviewer update site
+      CDT AST Viewer Update Site
    </description>
    <feature url="features/org.eclipse.cdt.ui.astviewer.feature_1.0.1.jar" id="org.eclipse.cdt.ui.astviewer.feature" version="1.0.1">
       <category name="CDT AST Viewer"/>
