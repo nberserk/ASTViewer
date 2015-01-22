@@ -95,7 +95,7 @@ public class CPPPopulateASTViewAction extends ASTGenericVisitor implements IPopu
             if (node instanceof IASTProblemHolder)
                 astProblems = (IASTProblem[])ArrayUtil.append(IASTProblem.class, astProblems, ((IASTProblemHolder)node).getProblem());
             else
-                astProblems = (IASTProblem[])ArrayUtil.append(IASTProblem.class, astProblems, node);
+                astProblems = (IASTProblem[])ArrayUtil.append(IASTProblem.class, astProblems, (IASTProblem)node);
         }
         if (node instanceof IASTPreprocessorStatement)
             tree.setFiltersFlag(DOMASTNodeLeaf.FLAG_PREPROCESSOR);
